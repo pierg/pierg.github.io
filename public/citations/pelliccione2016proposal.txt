@@ -1,0 +1,7 @@
+@inproceedings{pelliccione2016proposal,
+  title={{A Proposal for an Automotive Architecture Framework for Volvo Cars}},
+  author={Pelliccione, Patrizio and Knauss, Eric and Heldal, Rogardt and {\AA}gren, Magnus and \textbf{Mallozzi}, \textbf{Piergiuseppe} and Alminger, Anders and Borgentun, Daniel},
+  booktitle={Workshop on Automotive Systems/Software Architectures (WASA)},
+  year={2016},
+  organization={IEEE}
+}

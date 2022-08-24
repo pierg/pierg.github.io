@@ -1,0 +1,8 @@
+@inproceedings{mallozzi2018keeping,
+  title={Keeping intelligence under control},
+  author={Mallozzi, Piergiuseppe and Pelliccione, Patrizio and Menghi, Claudio},
+  booktitle={2018 IEEE/ACM 1st International Workshop on Software Engineering for Cognitive Services (SE4COG)},
+  pages={37--40},
+  year={2018},
+  organization={IEEE}
+}

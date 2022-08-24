@@ -1,0 +1,8 @@
+@inproceedings{mallozzi2021incremental,
+  title={Incremental refinement of goal models with contracts},
+  author={Mallozzi, Piergiuseppe and Nuzzo, Pierluigi and Pelliccione, Patrizio},
+  booktitle={International Conference on Fundamentals of Software Engineering},
+  pages={35--50},
+  year={2021},
+  organization={Springer, Cham}
+}

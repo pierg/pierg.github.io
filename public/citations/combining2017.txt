@@ -1,0 +1,8 @@
+@inproceedings{mallozzi2017combining,
+  title={Combining machine-learning with invariants assurance techniques for autonomous systems},
+  author={Mallozzi, Piergiuseppe},
+  booktitle={Proceedings of the 39th International Conference on Software Engineering Companion},
+  pages={485--486},
+  year={2017},
+  organization={IEEE Press}
+}

@@ -1,0 +1,7 @@
+@inproceedings{mallozzi2016formal,
+  title={{Formal Verification of the on-the-fly Vehicle Platooning Protocol}},
+  author={\textbf{Mallozzi}, \textbf{Piergiuseppe} and Sciancalepore, Massimo and Pelliccione, Patrizio},
+  booktitle={International Workshop on Software Engineering for Resilient Systems (SERENE)},
+  year={2016},
+  organization={Springer, Cham}
+}
