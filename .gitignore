@@ -4,6 +4,8 @@ yarn.lock
 # eslint
 .eslintcache
 
+.idea/
+
 # Logs
 logs
 *.log
