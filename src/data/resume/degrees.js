@@ -16,6 +16,7 @@ const degrees = [
   {
     school: 'University of Pisa',
     degree: 'MSc in Computer Engineering',
+    subtitle: 'Graduated with highest honors, full marks 110/110',
     title: 'Design and development of a co-simulation library for the PVSio-web prototyping tool',
     link: 'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lrDnPyoAAAAJ&sortby=pubdate&citation_for_view=lrDnPyoAAAAJ:d1gkVwhDpl0C',
     year: 2015,

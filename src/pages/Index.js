@@ -31,7 +31,10 @@ const Index = () => (
       />
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/projects" className="button">About My Projects</Link>}
+          <Link to="/resume" className="button">Learn More</Link>
+        </li>
+        <li>
+          <Link to="/resume" className="button">Projects</Link>
         </li>
       </ul>
     </article>
