@@ -1,0 +1,8 @@
+@inproceedings{mallozzi2018movemo,
+  title={MoVEMo: a structured approach for engineering reward functions},
+  author={Mallozzi, Piergiuseppe and Pardo, Ra{\'u}l and Duplessis, Vincent and Pelliccione, Patrizio and Schneider, Gerardo},
+  booktitle={2018 Second IEEE International Conference on Robotic Computing (IRC)},
+  pages={250--257},
+  year={2018},
+  organization={IEEE}
+}

@@ -1,0 +1,7 @@
+@article{curzon2015pvsio,
+  title={{PVSio-web: Mathematically Based Tool Support for the Design of Interactive and Interoperable Medical Systems}},
+  author={Curzon, Paul and Masci, Paolo and Oladimeji, Patrick and \textbf{Mallozzi}, \textbf{Piergiuseppe}},
+  journal={EAI Endorsed Transactions on Collaborative Computing},
+  year={2015},
+  publisher={ACM}
+}

@@ -1,0 +1,6 @@
+@article{pelliccione2017automotive,
+  title={{Automotive Architecture Framework: The Experience of Volvo Cars}},
+  author={Pelliccione, Patrizio and Knauss, Eric and Heldal, Rogardt and {\AA}gren, S Magnus and \textbf{Mallozzi}, \textbf{Piergiuseppe} and Alminger, Anders and Borgentun, Daniel},
+  journal={Journal of Systems Architecture},
+  year={2017},
+}

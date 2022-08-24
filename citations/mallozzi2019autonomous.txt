@@ -1,0 +1,8 @@
+@incollection{mallozzi2019autonomous,
+  title={{Autonomous Vehicles: State of the Art, Future Trends, and Challenges}},
+  author={\textbf{Mallozzi}, \textbf{Piergiuseppe} and Pelliccione, Patrizio and Knauss, Alessia and Berger, Christian and Mohammadiha, Nassar},
+  booktitle={Book Chapter in Automotive Systems and Software Engineering},
+  pages={347--367},
+  year={2019},
+  publisher={Springer, Cham}
+}
