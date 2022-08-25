@@ -41,9 +41,7 @@ const MyModal = ({
     effect={Effect.ScaleUp}
     style={customstyle}
   >
-    <article className="post" id="index">
-      <ReactMarkdown source={raw(`./citations/${text}.txt`)} />
-    </article>
+    <ReactMarkdown source={raw(`./citations/${text}.txt`)} />
   </Modal>
 );
 
