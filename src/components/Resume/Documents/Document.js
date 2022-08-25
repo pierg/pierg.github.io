@@ -1,18 +1,55 @@
 import React from 'react';
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
+import { Modal, Effect } from 'react-dynamic-modal';
 import PropTypes from 'prop-types';
+import raw from 'raw.macro';
+import ReactMarkdown from 'react-markdown';
 
-const Modal = ({ data }) => (
-  <Popup trigger={<button> Trigger</button>} position="right center">
-    <div>{data.message}</div>
-  </Popup>
-);
+const customstyle = {
+  overlay: {
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    zIndex: 99999999,
+    overflow: 'hidden',
+    perspective: 1300,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+  },
 
-Modal.propTypes = {
-  data: PropTypes.shape({
-    message: PropTypes.string.isRequired,
-  }).isRequired,
+  content: {
+    position: 'relative',
+    margin: '15% auto',
+    width: '60%',
+    border: '1px solid rgba(0, 0, 0, .2)',
+    background: '#2C3333',
+    overflow: 'auto',
+    borderRadius: '4px',
+    outline: 'none',
+    boxShadow: '0 5px 10px rgba(0, 0, 0, .3)',
+  },
 };
 
-export default Modal;
+// const markdown = raw('../data/about.md');
+
+const MyModal = ({
+  text,
+  onRequestClose,
+}) => (
+  <Modal
+    onRequestClose={onRequestClose}
+    effect={Effect.ScaleUp}
+    style={customstyle}
+  >
+    <article className="post" id="index">
+      <ReactMarkdown source={raw(`./citations/${text}.txt`)} />
+    </article>
+  </Modal>
+);
+
+MyModal.propTypes = {
+  text: PropTypes.string.isRequired,
+  onRequestClose: PropTypes.func.isRequired,
+};
+
+export default MyModal;

@@ -1,0 +1,10 @@
+```
+@inproceedings{mallozzi2020crome,
+  title={Crome: contract-based robotic mission specification},
+  author={Mallozzi, Piergiuseppe and Nuzzo, Pierluigi and Pelliccione, Patrizio and Schneider, Gerardo},
+  booktitle={2020 18th ACM-IEEE International Conference on Formal Methods and Models for System Design (MEMOCODE)},
+  pages={1--11},
+  year={2020},
+  organization={IEEE}
+}
+```

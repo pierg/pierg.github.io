@@ -1,0 +1,8 @@
+```
+@phdthesis{mallozzi2018engineering,
+  title={Engineering Trustworthy Self-Adaptive Autonomous Systems},
+  author={Mallozzi, Piergiuseppe},
+  year={2018},
+  school={Chalmers Tekniska Hogskola (Sweden)}
+}
+```

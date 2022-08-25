@@ -1,0 +1,8 @@
+```
+@inproceedings{masci2015using,
+  title={{Using PVSio-web and SAPERE for Rapid Prototyping of User Interfaces in Integrated Clinical Environments}},
+  author={Masci, Paolo and \textbf{Mallozzi}, \textbf{Piergiuseppe} and De Angelis, Francesco Luca and Serugendo, G Di Marzo and Curzon, Paul},
+  booktitle={Verisure2015, Workshop on Verification and Assurance, Co-located with CAV},
+  year={2015}
+}
+```

@@ -1,0 +1,8 @@
+```
+@book{mallozzi2021designing,
+  title={Designing Trustworthy Autonomous Systems},
+  author={Mallozzi, Piergiuseppe},
+  year={2021},
+  publisher={Chalmers Tekniska Hogskola (Sweden)}
+}
+```

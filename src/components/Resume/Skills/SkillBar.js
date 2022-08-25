@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { ModalManager } from 'react-dynamic-modal';
+import MyModal from '../Documents/Document';
 
 // const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -31,13 +33,16 @@ const SkillBar = ({ data }) => {
   // const pdflink = 'https://drive.google.com/file/d/1ZkTlZ2aTip4SHnEM4L_DMCdY742l2N0b/view?usp=sharing';
   const scholarlink = 'https://scholar.google.com/citations?user=lrDnPyoAAAAJ&hl=en&oi=ao';
 
+  function openModal() {
+    ModalManager.open(<MyModal text={data.file} onRequestClose={() => true} />);
+  }
+
   return (
     <div className="skillbar clearfix">
       <div className="skillbar-title"><p className="papertitle">{title}</p></div>
       <div className="skillbar-subtitle"><p className="authors">{authors}</p></div>
       <div className="skillbar-subtitle"><p className="venue"> {venue}, {year} </p></div>
-      {/* eslint-disable-next-line no-useless-concat */}
-      <div className="skillbar-subtitle"> <a href={scholarlink} className="button small">PDF</a><a href={scholarlink} className="button small">CITE</a></div>
+      <div className="skillbar-subtitle"> <a href={scholarlink} className="button small">PDF</a><button type="button" onClick={openModal.bind(this)} className="button small">CITE</button></div>
     </div>
   );
 };
