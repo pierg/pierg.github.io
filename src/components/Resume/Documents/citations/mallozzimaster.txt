@@ -1,7 +1,7 @@
 ```
 @article{mallozzimaster,
   title={{Design and Development of a Co-simulation Library for the PVSio-web Prototyping Tool}},
-  author={\textbf{Mallozzi}, \textbf{Piergiuseppe}},
+  author={Mallozzi, Piergiuseppe},
   journal={Master Thesis},
   year={2015},
 }

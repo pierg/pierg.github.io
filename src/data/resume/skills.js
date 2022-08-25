@@ -80,7 +80,7 @@ const skills = [
     venue: 'EAI Endorsed Transactions on Collaborative Computing',
     year: 2015,
     category: ['Formal Verification', 'Medical Devices'],
-    file: 'curzon2015pvsio.txt',
+    file: 'curzon2015pvsio',
   },
   {
     title: 'Automotive Architecture Framework: The Experience of Volvo Cars',
