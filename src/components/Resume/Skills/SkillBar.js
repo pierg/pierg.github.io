@@ -11,7 +11,8 @@ const SkillBar = ({ data }) => {
     venue,
     year,
     title,
-    // file,
+    file,
+    pdflink,
   } = data;
 
   // TODO: Consider averaging colors
@@ -27,14 +28,13 @@ const SkillBar = ({ data }) => {
   // };
 
   // eslint-disable-next-line camelcase
-  // const pdflink = `${PUBLIC_URL}/publications/${file}.pdf`;
   // const citelink = `${PUBLIC_URL}/citations/${file}.txt`;
   // const citelink = 'https://drive.google.com/file/d/1ZkTlZ2aTip4SHnEM4L_DMCdY742l2N0b/view?usp=sharing';
   // const pdflink = 'https://drive.google.com/file/d/1ZkTlZ2aTip4SHnEM4L_DMCdY742l2N0b/view?usp=sharing';
-  const scholarlink = 'https://scholar.google.com/citations?user=lrDnPyoAAAAJ&hl=en&oi=ao';
+  // const scholarlink = 'https://scholar.google.com/citations?user=lrDnPyoAAAAJ&hl=en&oi=ao';
 
   function openModal() {
-    ModalManager.open(<MyModal text={data.file} onRequestClose={() => true} />);
+    ModalManager.open(<MyModal text={file} onRequestClose={() => true} />);
   }
 
   return (
@@ -42,7 +42,7 @@ const SkillBar = ({ data }) => {
       <div className="skillbar-title"><p className="papertitle">{title}</p></div>
       <div className="skillbar-subtitle"><p className="authors">{authors}</p></div>
       <div className="skillbar-subtitle"><p className="venue"> {venue}, {year} </p></div>
-      <div className="skillbar-subtitle"> <a href={scholarlink} className="button small">PDF</a><button type="button" onClick={openModal.bind(this)} className="button small">CITE</button></div>
+      <div className="skillbar-subtitle"> <a href={pdflink} className="button small">PDF</a><button type="button" onClick={openModal.bind(this)} className="button small">CITE</button></div>
     </div>
   );
 };
@@ -55,6 +55,7 @@ SkillBar.propTypes = {
     authors: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     file: PropTypes.string.isRequired,
+    pdflink: PropTypes.string.isRequired,
   }).isRequired,
 };
 

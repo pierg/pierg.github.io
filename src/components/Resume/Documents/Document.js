@@ -20,7 +20,7 @@ const customstyle = {
   content: {
     position: 'relative',
     margin: '15% auto',
-    width: '60%',
+    width: '70%',
     border: '1px solid rgba(0, 0, 0, .2)',
     background: '#2C3333',
     overflow: 'auto',

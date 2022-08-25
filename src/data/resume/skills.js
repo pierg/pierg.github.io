@@ -8,6 +8,7 @@ const skills = [
     venue: 'under review',
     year: 2021,
     category: ['Contract-Based Design', 'Requirement Engineering', 'Robotic Missions', 'Reactive Synthesis'],
+    pdflink: '',
     file: 'contextual_controllers',
   },
   {
@@ -16,6 +17,7 @@ const skills = [
     venue: 'under review',
     year: 2022,
     category: ['Contract-Based Design', 'Requirement Engineering', 'Formal Verification'],
+    pdflink: '',
     file: 'search_repair',
   },
   {
@@ -24,6 +26,7 @@ const skills = [
     venue: 'Fundamentals of Software Engineering (FSEN)',
     year: 2021,
     category: ['Contract-Based Design', 'Requirement Engineering', 'Formal Verification'],
+    pdflink: 'https://drive.google.com/file/d/1-eNqWYwT6OC50h8bSkgqgcXurFTfvW1X/view?usp=sharing',
     file: 'mallozzi2021incremental',
   },
   {
@@ -32,6 +35,7 @@ const skills = [
     venue: 'International Conference on Formal Methods and Models for System Design (MEMOCODE)',
     year: 2020,
     category: ['Contract-Based Design', 'Robotic Missions', 'Requirement Engineering', 'Reactive Synthesis'],
+    pdflink: 'https://drive.google.com/file/d/1tJg-N7DqAx--lxcxifpvh4kXIC5caQD6/view?usp=sharing',
     file: 'mallozzi2020crome',
   },
   {
@@ -40,7 +44,17 @@ const skills = [
     venue: 'International Workshop on Robotics Software Engineering (RoSE), Co‑located with ICSE',
     year: 2019,
     category: ['Reinforcement Learning', 'Robotic Missions', 'Run-time Monitoring'],
-    file: 'mallozzi2020crome',
+    pdflink: 'https://drive.google.com/file/d/1mjwnZl74XFlF4J5cp-Fw8GBJ83tXJzcl/view?usp=sharing',
+    file: 'mallozzi2029runtime',
+  },
+  {
+    title: 'MoVEMo: a structured approach for engineering reward functions',
+    authors: 'Piergiuseppe Mallozzi,Raul Pardo, Vincent Duplessis, Patrizio Pelliccione, Gerardo Schneider',
+    venue: 'International Conference on Robotic Computing (IRC)',
+    year: 2018,
+    category: ['Reinforcement Learning', 'Requirement Engineering', 'Robotic Missions'],
+    pdflink: 'https://drive.google.com/file/d/1iPgOMHZnV6uHRCpRwbzaxbb4pd3eB1Eh/view?usp=sharing',
+    file: 'movemo2018',
   },
   {
     title: 'Engineering Trustworthy Self‑Adaptive Autonomous Systems',
@@ -48,7 +62,17 @@ const skills = [
     venue: 'Licentiate in Engineering Thesis',
     year: 2018,
     category: ['Reinforcement Learning', 'Robotic Missions', 'Run-time Monitoring'],
+    pdflink: 'https://drive.google.com/file/d/1qLkpnpxzeoXnJCGkDBy8_xSGAr_xagQl/view?usp=sharing',
     file: 'licentiate',
+  },
+  {
+    title: 'Designing Trustworthy Autonomous Systems',
+    authors: 'Piergiuseppe Mallozzi',
+    venue: 'PhD Thesis',
+    year: 2021,
+    category: ['Autonomous Vehicles', 'Formal Verification', 'Reactive Synthesis', 'Run-time Monitoring', 'Contract-Based Design', 'Reinforcement Learning', 'Robotic Missions', 'Requirement Engineering', 'Machine Learning'],
+    pdflink: 'https://drive.google.com/file/d/14d-Dx5No6juhWeT5E5PUFVTMiaZ3cQJV/view?usp=sharing',
+    file: 'phdthesis',
   },
   {
     title: 'Keeping Intelligence Under Control',
@@ -56,6 +80,7 @@ const skills = [
     venue: 'International Workshop on Software Engineering for Cognitive Services (SE4COG), Co‑located with ICSE',
     year: 2018,
     category: ['Reinforcement Learning', 'Robotic Missions', 'Machine Learning'],
+    pdflink: 'https://drive.google.com/file/d/1qdblh7eb8Sjx_SVwA1ItCKx_cDpUkv7F/view?usp=sharing',
     file: 'keep2018',
   },
   {
@@ -64,6 +89,7 @@ const skills = [
     venue: 'Doctoral Symposium at International Conference on Software Engineering (ICSE)',
     year: 2017,
     category: ['Reinforcement Learning', 'Machine Learning', 'Run-time Monitoring'],
+    pdflink: 'https://drive.google.com/file/d/1Clwkaq2Lo6t6D3Win8HXZxa-gmu4DPU4/view?usp=sharing',
     file: 'combining2017',
   },
   {
@@ -72,6 +98,7 @@ const skills = [
     venue: 'Book Chapter in Automotive Systems and Software Engineering',
     year: 2019,
     category: ['Autonomous Vehicles'],
+    pdflink: 'https://drive.google.com/file/d/1VF8ePKJttQlO57juYmcyLAarZyNIxpEO/view?usp=sharing',
     file: 'mallozzi2019autonomous',
   },
   {
@@ -80,6 +107,7 @@ const skills = [
     venue: 'EAI Endorsed Transactions on Collaborative Computing',
     year: 2015,
     category: ['Formal Verification', 'Medical Devices'],
+    pdflink: 'https://drive.google.com/file/d/1gEh0ArIgGDwbF9HQYTgBRkc1vhsxjquY/view?usp=sharing',
     file: 'curzon2015pvsio',
   },
   {
@@ -88,6 +116,7 @@ const skills = [
     venue: 'Journal of Systems Architecture',
     year: 2017,
     category: ['Autonomous Vehicles', 'Software Architecture'],
+    pdflink: 'https://drive.google.com/file/d/1SuVD0f3y7O44IyWlmV1S1bSrAVJZTyHd/view?usp=sharing',
     file: 'pelliccione2017automotive',
   },
   {
@@ -96,6 +125,7 @@ const skills = [
     venue: 'International Workshop on Software Engineering for Resilient Systems (SERENE)',
     year: 2016,
     category: ['Autonomous Vehicles', 'Formal Verification'],
+    pdflink: 'https://drive.google.com/file/d/1_SKeGB9LZFD-ikhwDfFYD9ESM28HiHqg/view?usp=sharing',
     file: 'mallozzi2016formal',
   },
   {
@@ -104,6 +134,7 @@ const skills = [
     venue: 'Workshop on Automotive Systems/Software Architectures (WASA)',
     year: 2016,
     category: ['Autonomous Vehicles', 'Software Architecture'],
+    pdflink: 'https://drive.google.com/file/d/1kuXG7okJOGe0M-mSKzkuLQiQC9XEbFar/view?usp=sharing',
     file: 'pelliccione2016proposal',
   },
   {
@@ -112,6 +143,7 @@ const skills = [
     venue: 'Master Thesis',
     year: 2015,
     category: ['Formal Verification', 'Software Architecture', 'Medical Devices'],
+    pdflink: 'https://drive.google.com/file/d/12BpsiNYdcuGiOASl_Vwxzcn5K_CPnQw3/view?usp=sharing',
     file: 'mallozzimaster',
   },
   {
@@ -120,6 +152,7 @@ const skills = [
     venue: 'Verisure2015, Workshop on Verification and Assurance, Co‑located with CAV',
     year: 2015,
     category: ['Formal Verification', 'Software Architecture', 'Medical Devices'],
+    pdflink: 'https://drive.google.com/file/d/18Z1TM5s_l2xMKONuuKmHYoY1QsghqACg/view?usp=sharing',
     file: 'masci2015using',
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
