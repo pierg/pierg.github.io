@@ -22,27 +22,6 @@ const positions = [
     ],
   },
   {
-    company: 'Chalmers University of Technology',
-    position: 'Main Lecturer',
-    link: 'https://www.chalmers.se/en',
-    daterange: 'September 2019 - June 2020',
-    points: [
-      'Course: "Machine Learning and Software Engineering for AI Systems"',
-      'Developed and taught the course from scratch (slides, study materials, assignments).',
-      'Covered all the main machine learning techniques in supervised, unsupervised and reinforcement learning.',
-    ],
-  },
-  {
-    company: 'Chalmers University of Technology',
-    position: 'Teaching Assistent',
-    link: 'https://www.chalmers.se/en',
-    daterange: 'September 2016 - June 2019',
-    points: [
-      'Courses: "Advanced Software Architecture", " Model-Based Software Development"',
-      'Prepared slides, taught few classes, supervised the labs.',
-    ],
-  },
-  {
     company: 'IDEA League',
     position: 'PhD Student',
     link: 'https://idealeague.org',

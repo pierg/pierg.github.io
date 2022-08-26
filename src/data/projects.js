@@ -29,7 +29,7 @@ const data = [
     github: 'https://github.com/pierg/crome-logic',
     image: '/images/projects/logic.png',
     desc:
-      'The tools allows LTL formulas to be mapped to boolean formulas in CNF/DNF form and then they can be simplified using heuristic logic minimization techniques.',
+      'The tools allows LTL formulas to be mapped to boolean formulas in conjunctive or disjunctive normal form (CNF/DNF) and then they can be simplified using heuristic logic minimization techniques.',
     points: [
       'Tools used: NuSMV (LTL satisfiability, validity checks), Spot (LTL tree parser), Espresso (Logic Minimizer)',
     ],

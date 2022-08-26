@@ -14,7 +14,7 @@
     bottom: 0;
     border-top: solid 1px _palette(border);
 
-    p {
+    .descp {
       font-size: 0.9rem;
       margin: 0;
       padding: 2em;
@@ -26,7 +26,7 @@
       -webkit-transition: all 0.1s ease-in-out;
     }
 
-    p:hover {
+    .descp:hover {
       background-color: _palette(description);
     }
   }

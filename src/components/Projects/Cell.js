@@ -14,19 +14,14 @@ const Cell = ({ data }) => (
         <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
       </div>
       <div className="description">
-        <p>
-          {data.desc}
-          <ul className="points">
-            {/* {data.points.map((point) => ( */}
-            {/*   <li key={point}>{point}</li> */}
-            {/* ))} */}
-          </ul>
+        <div className="descp">
+          <p> {data.desc} </p>
           <div className="github-link">
             <a href={data.github} className="button medium float_right">view of GitHub <FontAwesomeIcon icon={faGithub} /></a>
             {data.link
-              && <a href={data.link} className="button medium float_right">Launch it!</a>}
+              && <a href={data.link} className="button medium float_right">Launch it (BETA)</a>}
           </div>
-        </p>
+        </div>
       </div>
     </article>
   </div>
@@ -39,7 +34,7 @@ Cell.propTypes = {
     link: PropTypes.string,
     subtitle: PropTypes.string,
     image: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
+    date: PropTypes.string,
     desc: PropTypes.string.isRequired,
     points: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
