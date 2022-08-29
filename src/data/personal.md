@@ -6,6 +6,6 @@
 - Favorite movie directors: David Lynch, Paul Tomas Anderson, Darren Aronofsky, Alejandro González Iñárritu, Paolo Sorrentino, Stanley Kubrick.
 - Favorite sports: Skiing, Swimming, Climbing, Windsurfing
 - I occasionally ride my road bike and motorcycle.
-- I love learning about math and science. My favourite YouTube channels are: [Numberphile](https://www.youtube.com/c/numberphile), [Computerphile](https://www.youtube.com/user/Computerphile), [3Blue1Brown](https://www.youtube.com/c/3blue1brown), [Veritasium](https://www.youtube.com/c/veritasium), [CGP Grey](https://www.youtube.com/greymatter), [Vsauce](https://www.youtube.com/c/vsauce1)
-- Favourite podcast: [Lex Fridman](https://lexfridman.com/podcast/)
-- Favourite drink: [Negroni](https://en.wikipedia.org/wiki/Negroni)
+- I love learning about math and science. My favorite YouTube channels are: [Numberphile](https://www.youtube.com/c/numberphile), [Computerphile](https://www.youtube.com/user/Computerphile), [3Blue1Brown](https://www.youtube.com/c/3blue1brown), [Veritasium](https://www.youtube.com/c/veritasium), [CGP Grey](https://www.youtube.com/greymatter), [Vsauce](https://www.youtube.com/c/vsauce1)
+- Favorite podcast: [Lex Fridman](https://lexfridman.com/podcast/)
+- Favorite drink: [Negroni](https://en.wikipedia.org/wiki/Negroni)
