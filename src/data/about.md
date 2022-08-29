@@ -7,7 +7,7 @@ I'm a postdoctoral researcher in computer science and engineering at **UC Berkel
 # Currently
 
 I am working on the DARPA project [_Symbiotic Design for Cyber-Physical Systems_](https://www.darpa.mil/program/symbiotic-design-for-cyber-physical-systems).
-Developing AI‑based approaches to enable correct‑by‑construction designs.
+Developing AI‑based approaches to enable correct‑by‑construction designs of Cyber-Physical Systems.
 
 # Previously
 
