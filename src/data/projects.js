@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Sym-CPS',
+    subtitle: 'Symbiotic Design for Cyber-Physical Systems',
+    // link: 'https://crome-tool.duckdns.org',
+    github: 'https://github.com/uc-berkeley-data-discovery-2022/berkeley-cps-symbiotic-design',
+    image: '/images/projects/sym-cps.png',
+    desc:
+      'Software infrastructure to design, model and optimize Cyber-Physical Systems (e.g. UAVs) at different abstraction layers: topology, component selection, parameter optimization and control.',
+  },
+  {
     title: 'CROME',
     subtitle: 'Contract-Based Robotic Mission Specification',
     link: 'https://crome-tool.duckdns.org',

@@ -12,7 +12,7 @@ const skills = [
     file: 'contextual_controllers',
   },
   {
-    title: 'A Framework to Refine and Repair Specifications of Robotic Missions Using Contracts',
+    title: 'Contract-Based Specification Refinement and Repair for Mission Planning',
     authors: 'Piergiuseppe Mallozzi, Inigo Incer, Pierluigi Nuzzo, Alberto Sangiovanni‑Vincentelli',
     venue: 'under review',
     year: 2022,
