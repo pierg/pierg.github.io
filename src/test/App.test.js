@@ -32,11 +32,6 @@ const pages = [
     component: Projects,
   },
   {
-    route: '/stats',
-    heading: 'Stats',
-    component: Stats,
-  },
-  {
     route: '/contact',
     heading: 'Contact',
     component: Contact,
