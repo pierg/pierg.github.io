@@ -14,7 +14,6 @@ import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
-import Stats from '../pages/Stats';
 
 const pages = [
   {
