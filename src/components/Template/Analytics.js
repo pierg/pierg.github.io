@@ -5,7 +5,9 @@ import ReactGA from 'react-ga4';
 const { NODE_ENV, REACT_APP_GA_TRACKING_ID } = process.env;
 
 if (NODE_ENV === 'production') {
-  ReactGA.initialize(REACT_APP_GA_TRACKING_ID);
+  setTimeout(() => {
+    ReactGA.initialize(REACT_APP_GA_TRACKING_ID);
+  }, 4000);
 }
 
 const Analytics = () => {
