@@ -8,7 +8,7 @@ const skills = [
     venue: 'under review',
     year: 2021,
     category: ['Contract-Based Design', 'Requirement Engineering', 'Robotic Missions', 'Reactive Synthesis'],
-    pdflink: '',
+    pdflink: 'https://rebrand.ly/contextual_missions',
     file: 'contextual_controllers',
   },
   {
