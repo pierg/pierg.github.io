@@ -50,7 +50,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Pier.
-        I am a postdoctoral researcher at <a href="https://www.icyphy.org/">UC Berkeley, Industrial Cyber-Physical Systems group</a>.
+        I am a postdoctoral researcher at <a href="https://www.icyphy.org/people.html/">UC Berkeley, Industrial Cyber-Physical Systems group</a>.
         I have a PhD in <a href="https://www.chalmers.se/en/Pages/default.aspx">Computer Science from Chalmers University of Technology, Sweden</a> .
         Since 2016 I have been part of <a href="https://wasp-sweden.org">Wallenberg AI, Autonomous Systems and Software Program</a>, the largest individual research program in Sweden.
         I have obtained my BSc and MSc in Computer Engineering from the <a href="https://www.unipi.it/index.php/english">University of Pisa, Italy.</a>

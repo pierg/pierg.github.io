@@ -1,7 +1,7 @@
 
 # Intro
 
-I'm a postdoctoral researcher in computer science and engineering at **UC Berkeley**. I'm interested in **cyber-physical systems** (modeling, design, and analysis), **AI and machine learning** (deep and reinforcement learning), **formal methods** (model checking, run-time verification, reactive synthesis), and **software engineering**. Mainly, I like to be at the intersection of these research areas.
+I'm a [postdoctoral researcher](https://www.icyphy.org/people.html) in computer science and engineering at **UC Berkeley**. I'm interested in **cyber-physical systems** (modeling, design, and analysis), **AI and machine learning** (deep and reinforcement learning), **formal methods** (model checking, run-time verification, reactive synthesis), and **software engineering**. Mainly, I like to be at the intersection of these research areas.
 
 
 # Currently
