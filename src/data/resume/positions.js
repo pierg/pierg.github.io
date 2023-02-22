@@ -1,34 +1,31 @@
 const positions = [
   {
     company: 'UC Berkeley',
-    position: 'Post-Doctoral Researcher',
+    position: 'Post-Doctoral Fellowship',
     prof: 'Alberto-Sangiovanni Vincentelli',
     proflink: 'https://www2.eecs.berkeley.edu/Faculty/Homepages/sangiovanni-vicentelli.html',
     link: 'https://berkeley.edu',
-    daterange: 'September 2021 - Present',
+    daterange: '2021',
     points: [
       'Working on AI‑based approaches to enable correct‑by‑construction designs',
-      'Developed a framework to search and repair system specifications using contracts',
     ],
   },
   {
     company: 'UC Berkeley',
     position: 'Visiting PhD Student',
     link: 'https://berkeley.edu',
-    daterange: 'January 2019 - August 2019',
+    daterange: '2019',
     points: [
-      'Fellowship by Knut and Alice Wallenberg Foundation.',
-      'Deepened my knowledge on Formal Methods and Contract‑Based Design.',
+      'Gained expertise in Deep Learning, Formal Methods and Contract-Based Design.',
     ],
   },
   {
     company: 'IDEA League',
-    position: 'PhD Student',
+    position: 'Doctoral School',
     link: 'https://idealeague.org',
-    daterange: 'January 2017 - November 2018',
+    daterange: '2017, 2018',
     points: [
-      'Doctoral School across top European Universities.',
-      'Built a network with ETH Zurich, TUDelft, Politecnico di Milano.',
+      'Developed a strong network with ETH Zurich, TUDelft, Politecnico di Milano.',
     ],
   },
   {
@@ -37,11 +34,23 @@ const positions = [
     link: 'https://www.waseda.jp/top/en/',
     prof: 'Kenji-Tei',
     proflink: 'https://w-rdb.waseda.jp/html/100000887_en.html',
-    daterange: 'June 2018 - September 2018',
+    daterange: '2018',
     points: [
-      'Awarded among candidates from all over the world to collaborate with top Japanese research institutions.',
-      'Funded by Japanese Society for Promoting Science (JSPS).',
-      'Developed Run-time Monitoring techniques for Safe Reinforcement Learning',
+      'Collaborated with top Japanese research institutions as an awarded candidate among applicants from around the world',
+      'Received funding from JSPS (Japanese Society for Promoting Science) for the collaboration.',
+    ],
+  },
+  {
+    company: 'Wallenberg AI, Autonomous Systems and Software Program',
+    position: 'Doctoral Program',
+    link: 'https://www.nasa.gov/langley',
+    prof: 'César Muńoz',
+    proflink: 'https://shemesh.larc.nasa.gov/people/cam/',
+    daterange: '2016-2021',
+    points: [
+      'Received full funding for doctoral program, international graduate school, and research visits through a prestigious fellowship program in Sweden.',
+      'Awarded travel grants to present research at top academic and industry research centers worldwide, including Airbus (France), German Aerospace Center DLR (Germany), Stanford, UC Berkeley, Google, and Netflix (USA), and NTU, SUTD (Singapore).',
+      'Engaged in high-level discussions with leading researchers in various fields, broadening my research expertise and network.',
     ],
   },
   {
@@ -50,10 +59,10 @@ const positions = [
     link: 'https://www.nasa.gov/langley',
     prof: 'César Muńoz',
     proflink: 'https://shemesh.larc.nasa.gov/people/cam/',
-    daterange: 'May 2015 - September 2015',
+    daterange: '2015',
     points: [
-      'Lead the design and development of a flight simulator for demonstrating the NextGen collision avoidance system (DAIDALUS) developed at NASA Langley.',
-      'The simulator executes the mathematical models developed by the team at NASA using the PVS verification system.',
+      'Led the design and development of a flight simulator to demonstrate the NextGen collision avoidance system (DAIDALUS) developed at NASA Langley.',
+      'Utilized the PVS verification system to execute mathematical models developed by the NASA team in a simulator.',
     ],
   },
   {
@@ -62,37 +71,37 @@ const positions = [
     link: 'https://www.qmul.ac.uk',
     prof: 'Paul Curzon',
     proflink: 'https://www.eecs.qmul.ac.uk/~pc/',
-    daterange: 'January 2015 - May 2015',
+    daterange: '2015',
     points: [
-      'Worked within the CHI+MED research team to develop a communication middleware for co‑simulation of device prototypes.',
-      'The middleware was used to develop a demonstrative prototype of an Integrated Clinical Environment with interoperable medical devices.',
+      'Developed a communication middleware for co-simulation of device prototypes in the CHI+MED research team.',
+      'Utilized the middleware to develop a demonstrative prototype of an Integrated Clinical Environment with interoperable medical devices.',
     ],
   },
   {
     company: 'Institut supérieur d’électronique de Paris',
     position: 'Visiting student',
     link: 'https://www.isep.fr',
-    daterange: 'September 2014 - January 2015',
+    daterange: '2014',
     points: [
-      'Developed an Android application that enables people with disabilities to use the keyboard.',
+      'Designed and implemented an Android application to provide keyboard accessibility for individuals with disabilities.',
     ],
   },
   {
     company: 'Copenhagen University College of Engineering',
     position: 'Student',
     link: 'https://www.dtu.dk/english',
-    daterange: 'June 2012 - August 2012',
+    daterange: '2012',
     points: [
-      'Awarded scholarship for a summer school in engineering topics.',
+      'Received a scholarship to attend a summer school focused on engineering topics.',
     ],
   },
   {
     company: 'Universidad Carlos III de Madrid',
     position: 'Visiting student',
     link: 'https://www.uc3m.es/Home',
-    daterange: 'September 2011 - January 2012',
+    daterange: '2011',
     points: [
-      'Funded scholarship for exchange study semester abroad',
+      'Awarded scholarship to support international exchange program',
     ],
   },
 ];

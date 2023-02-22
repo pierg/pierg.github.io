@@ -7,7 +7,7 @@ const data = [
     github: 'https://github.com/uc-berkeley-data-discovery-2022/berkeley-cps-symbiotic-design',
     image: '/images/projects/sym-cps.png',
     desc:
-      'Software infrastructure to design, model and optimize Cyber-Physical Systems (e.g. UAVs) at different abstraction layers: topology, component selection, parameter optimization and control.',
+      'Developed software infrastructure to design, model, and optimize Cyber-Physical Systems (UAVs) at multiple levels of abstraction, including topology, component selection, parameter optimization, and control.',
   },
   {
     title: 'CROME',
@@ -16,7 +16,7 @@ const data = [
     github: 'https://github.com/pierg/crome-cgg',
     image: '/images/projects/crome.png',
     desc:
-      'The tool helps the designer model and deploy robotic missions using contracts. The designer can model the environment, and the goals that the robot must achieve using LTL or Specification Patterns. The tool analyze the goals, build the CGG (a graph of contracts) and realize the controllers via reactive synthesis and simulate the robotic mission.',
+      'This tool enables designers to model and deploy robotic missions using contracts, allowing them to define the environment and goals using LTL or Specification Patterns. The tool then analyzes the goals, builds a CGG (contract graph), and creates the controllers via reactive synthesis, allowing designers to simulate and test the robotic mission.',
     points: [
       'Tools used: NuSMV (LTL satisfiability, validity checks), Strix (controller synthesis), Docker, React, Flask',
     ],
@@ -28,7 +28,7 @@ const data = [
     github: 'https://github.com/pierg/crome-contracts',
     image: '/images/projects/contracts.png',
     desc:
-      'Implementation of the contract algebra operations where behaviours are expressed in Linear Temporal Logic. A newer web-based version of the tools is currently under development where contracts support multiple formalisms and the `system` specification is greatly simplified.',
+      'Implemented contract algebra operations for expressing behaviors in Linear Temporal Logic. Currently developing a new web-based version of the tool that supports multiple formalisms in the contracts and greatly simplifies the system specification process.',
     points: [
     ],
   },
@@ -38,7 +38,7 @@ const data = [
     github: 'https://github.com/pierg/crome-logic',
     image: '/images/projects/logic.png',
     desc:
-      'The tools allows LTL formulas to be mapped to boolean formulas in conjunctive or disjunctive normal form (CNF/DNF) and then they can be simplified using heuristic logic minimization techniques.',
+      'The tool enables the mapping of LTL formulas to boolean formulas in CNF/DNF and their subsequent simplification using heuristic logic minimization techniques.',
     points: [
       'Tools used: NuSMV (LTL satisfiability, validity checks), Spot (LTL tree parser), Espresso (Logic Minimizer)',
     ],
@@ -49,7 +49,7 @@ const data = [
     github: 'https://github.com/pierg/crome-synthesis',
     image: '/images/projects/synthesis.png',
     desc:
-      'Given an LTL formula the tool: 1) breaks it down in conjunctions of `independent` formulas, 2) synthesize them into Mealy machines concurrently, 4) runs the Mealy machine in parallel even in presence of multiple `fix points`.',
+      'The tool is capable of breaking down an LTL formula into conjunctions of independent formulas, synthesizing them concurrently into Mealy machines, and running the Mealy machine in parallel, even in the presence of multiple "fix points".',
     points: [
       'Tools used: Crome-Logic, Strix (synthesis)',
     ],
@@ -60,7 +60,7 @@ const data = [
     github: 'https://github.com/pierg/cogomo',
     image: '/images/projects/cogomo.png',
     desc:
-      'Formal requirement analysis and refinement to libraries of components. Features: 1) conflicts/incompleteness detection, 2) greedy optimization algorithm for mapping specification to components in a library.',
+      'Tool for formally analyzing and refining requirements of component libraries, featuring conflict and incompleteness detection, as well as a greedy optimization algorithm for mapping specifications to components in a library.',
     points: [
       'Tools used: Z3 (SMT solver and unsat-core), Strix (synthesis)',
     ],
@@ -71,7 +71,7 @@ const data = [
     image: '/images/projects/wiseml.png',
     github: 'https://github.com/pierg/wiseml',
     desc:
-      'Given an LTL formula the tool: 1) breaks it down in conjunctions of `independent` formulas, 2) synthesize them into Mealy machines concurrently, 4) runs the Mealy machine in parallel even in presence of multiple `fix points`.',
+      'Tool for safe and efficient model-free reinforcement learning (RL) in unknown environments. It uses runtime monitoring with a set of monitors to prevent unsafe actions and provide feedback to the agent, which enables the agent to learn faster and achieve the goal efficiently. The approach has been evaluated in randomly generated learning environments and has shown to prevent dangerous actions and improve the agent\'s performance.',
     points: [
     ],
   },
@@ -79,8 +79,9 @@ const data = [
     title: 'Movemo',
     subtitle: 'Engineering of Reward Functions for reinforcement learning agents',
     image: '/images/projects/movemo.png',
+    github: 'https://github.com/pierg/movemo',
     desc:
-      'Given an LTL formula the tool: 1) breaks it down in conjunctions of `independent` formulas, 2) synthesize them into Mealy machines concurrently, 4) runs the Mealy machine in parallel even in presence of multiple `fix points`.',
+      'Tool for formally expressing and verifying reward functions in structured state machines, enhancing the design and formal verification of reward functions in reinforcement learning.',
     points: [
     ],
   },

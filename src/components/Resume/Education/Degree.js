@@ -7,7 +7,7 @@ const Degree = ({ data }) => {
       <article className="degree-container">
         <header>
           <h4 className="degree">{data.degree}</h4>
-          <p className="school">{data.school}, {data.year}</p>
+          <p className="school">{data.year}, {data.school}</p>
           <p className="subtitle">{data.subtitle}</p>
           <p className="thesis">Thesis: <a href={data.link}>{data.title}</a></p>
         </header>
@@ -19,7 +19,7 @@ const Degree = ({ data }) => {
       <article className="degree-container">
         <header>
           <h4 className="degree">{data.degree}</h4>
-          <p className="school">{data.school}, {data.year}</p>
+          <p className="school">{data.year}, {data.school}</p>
           <p className="thesis">Thesis: <a href={data.link}>{data.title}</a></p>
         </header>
       </article>

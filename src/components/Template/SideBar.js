@@ -50,15 +50,13 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Pier.
-        I am a postdoctoral researcher at <a href="https://www.icyphy.org/people.html/">UC Berkeley, Industrial Cyber-Physical Systems group</a>.
-        I have a PhD in <a href="https://www.chalmers.se/en/Pages/default.aspx">Computer Science from Chalmers University of Technology, Sweden</a> .
-        Since 2016 I have been part of <a href="https://wasp-sweden.org">Wallenberg AI, Autonomous Systems and Software Program</a>, the largest individual research program in Sweden.
-        I have obtained my BSc and MSc in Computer Engineering from the <a href="https://www.unipi.it/index.php/english">University of Pisa, Italy.</a>
+        I am a postdoctoral researcher at <a href="https://www.icyphy.org/people.html/"> in the Industrial Cyber-Physical Systems group at UC Berkeley</a>.
+        I received my PhD in <a href="https://www.chalmers.se/en/Pages/default.aspx">Computer Science from Chalmers University of Technology, Sweden</a> and have been a part of the <a href="https://wasp-sweden.org">Wallenberg AI, Autonomous Systems and Software Program</a>, the largest individual research program in Sweden, since 2016.
+        My background includes a BSc and MSc in Computer Engineering from the <a href="https://www.unipi.it/index.php/english"> University of Pisa, Italy </a>.
       </p>
       <p>
-        My research interests are in the field of software engineering,
-        formal methods and machine learning.
-        Specifically, I&apos;m interested in design methodologies for autonomous systems.
+        My research focuses on software engineering, formal methods, and machine learning,
+        with a particular interest in design methodologies for autonomous systems.
       </p>
       <ul className="actions">
         <li>

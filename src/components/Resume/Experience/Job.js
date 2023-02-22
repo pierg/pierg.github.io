@@ -7,9 +7,8 @@ const Job = ({ data }) => {
     return (
       <article className="jobs-container">
         <header>
-          <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
-          <p className="daterange"> {data.daterange}</p>
-          <p className="prof">Advised by: <a href={data.proflink}>{data.prof}</a></p>
+          <p className="daterange"> {data.daterange}</p><h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
+          {/* <p className="prof">Advised by: <a href={data.proflink}>{data.prof}</a></p> */}
         </header>
         <ul className="points">
           {/* eslint-disable-next-line max-len */}
@@ -24,8 +23,7 @@ const Job = ({ data }) => {
   return (
     <article className="jobs-container">
       <header>
-        <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
-        <p className="daterange"> {data.daterange}</p>
+        <p className="daterange"> {data.daterange}</p><h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
       </header>
       <ul className="points">
         {data.points.map((point) => (

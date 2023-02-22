@@ -3,22 +3,22 @@
 
 const skills = [
   {
-    title: 'A Framework for Specifying and Realizing Correct–by–Construction Contextual Robotic Missions Using Contracts',
-    authors: 'Piergiuseppe Mallozzi, Pierluigi Nuzzo, Nir Piterman, Patrizio Pelliccione, Gerardo Schneider',
-    venue: 'under review',
-    year: 2021,
-    category: ['Contract-Based Design', 'Requirement Engineering', 'Robotic Missions', 'Reactive Synthesis'],
-    pdflink: 'https://rebrand.ly/contextual_missions',
-    file: 'contextual_controllers',
-  },
-  {
     title: 'Contract-Based Specification Refinement and Repair for Mission Planning',
     authors: 'Piergiuseppe Mallozzi, Inigo Incer, Pierluigi Nuzzo, Alberto Sangiovanni‑Vincentelli',
-    venue: 'under review',
-    year: 2022,
+    venue: 'International Conference of Formal Methods in Software Engineering (FORMALISE)',
+    year: 2023,
     category: ['Contract-Based Design', 'Requirement Engineering', 'Formal Verification'],
     pdflink: 'https://arxiv.org/abs/2211.11908',
     file: 'search_repair',
+  },
+  {
+    title: 'A Framework for Specifying and Realizing Correct–by–Construction Contextual Robotic Missions Using Contracts',
+    authors: 'Piergiuseppe Mallozzi, Pierluigi Nuzzo, Nir Piterman, Patrizio Pelliccione, Gerardo Schneider',
+    venue: 'under review',
+    year: 2022,
+    category: ['Contract-Based Design', 'Requirement Engineering', 'Robotic Missions', 'Reactive Synthesis'],
+    pdflink: 'https://rebrand.ly/contextual_missions',
+    file: 'contextual_controllers',
   },
   {
     title: 'Incremental Refinement of Goal Models with Contracts',
