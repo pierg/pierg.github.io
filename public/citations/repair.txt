@@ -1,0 +1,6 @@
+@article{mallozzi2022contract,
+  title={Contract-Based Specification Refinement and Repair for Mission Planning},
+  author={Mallozzi, Piergiuseppe and Incer, Inigo and Nuzzo, Pierluigi and Sangiovanni-Vincentelli, Alberto},
+  journal={arXiv preprint arXiv:2211.11908},
+  year={2022}
+}
