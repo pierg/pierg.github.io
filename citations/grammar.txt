@@ -1,0 +1,6 @@
+@article{mallozzi2023gramar,
+  title={A Grammar for the Representation of Unmanned Aerial Vehicles with 3D Topologies},
+  author={Mallozzi, Piergiuseppe and Sibai, Hussein and A. Seshia, Sanjit and Incer, Inigo and Sangiovanni-Vincentelli, Alberto},
+  journal={https://arxiv.org/abs/2302.13980},
+  year={2023}
+}
