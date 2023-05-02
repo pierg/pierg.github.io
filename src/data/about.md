@@ -5,7 +5,7 @@ I'm a [postdoctoral researcher](https://www.icyphy.org/people.html) in computer 
 
 
 # Currently
-* Leading and actively contributing to the development of (Fact Fortress, An On-Chain Zero-Knowledge Proof Framework)[https://pierg.github.io/fact-fortress-web/].
+* Leading and actively contributing to the development of [Fact Fortress, An On-Chain Zero-Knowledge Proof Framework](https://pierg.github.io/fact-fortress-web/).
 * Contributing to the DARPA project [_Symbiotic Design for Cyber-Physical Systems_](https://www.darpa.mil/program/symbiotic-design-for-cyber-physical-systems), using AI and formal methods to explore innovative UAV designs.
 * Contributing to the development of [_PACTI_](https://www.pacti.org), a specification‑based system analysis and design tool.
 * Developing AI‑based approaches to enable [_correct‑by‑construction designs of Cyber-Physical Systems_](https://arxiv.org/abs/2211.11908).

@@ -17,9 +17,14 @@ const Cell = ({ data }) => (
         <div className="descp">
           <p> {data.desc} </p>
           <div className="github-link">
-            <a href={data.github} className="button medium float_right">view of GitHub <FontAwesomeIcon icon={faGithub} /></a>
-            {data.link
-              && <a href={data.link} className="button medium float_right">Launch it (BETA)</a>}
+            <a href={data.github} className="button medium float_right">
+              view of GitHub <FontAwesomeIcon icon={faGithub} />
+            </a>
+            {data.link && (
+              <a href={data.link} className="button medium float_right">
+                Website
+              </a>
+            )}
           </div>
         </div>
       </div>
