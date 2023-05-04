@@ -1,9 +1,21 @@
 const positions = [
   {
     company: 'UC Berkeley',
+    position: 'ZKP Hackathon 2023',
+    prof: '',
+    proflink: '',
+    link: 'https://pierg.github.io/fact-fortress-web/',
+    daterange: '2023',
+    points: [
+      'Recipient of first prize in application track (self-selected task) at the ZKP Hackathon 2023 for Fact Fortress project.',
+    ],
+  },
+  {
+    company: 'UC Berkeley',
     position: 'Post-Doctoral Fellowship',
     prof: 'Alberto-Sangiovanni Vincentelli',
-    proflink: 'https://www2.eecs.berkeley.edu/Faculty/Homepages/sangiovanni-vicentelli.html',
+    proflink:
+      'https://www2.eecs.berkeley.edu/Faculty/Homepages/sangiovanni-vicentelli.html',
     link: 'https://berkeley.edu',
     daterange: '2021',
     points: [
@@ -100,9 +112,7 @@ const positions = [
     position: 'Visiting student',
     link: 'https://www.uc3m.es/Home',
     daterange: '2011',
-    points: [
-      'Awarded scholarship to support international exchange program',
-    ],
+    points: ['Awarded scholarship to support international exchange program'],
   },
 ];
 
