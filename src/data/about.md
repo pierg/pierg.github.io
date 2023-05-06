@@ -1,6 +1,6 @@
 # Intro
 
-I'm a [postdoctoral researcher](https://www.icyphy.org/people.html) in computer science and engineering at UC Berkeley with a PhD in the field. 
+I'm a postdoctoral researcher in [computer science and engineering at UC Berkeley](https://www.icyphy.org/people.html) with a PhD in the field. 
 My expertise includes software/system engineering, AI/ML, formal methods, and a growing interest in **blockchain** and **zero-knowledge proof**. 
 I take a hands-on approach to software development and have contributed to [several open source projects](https://pierg.github.io/projects).
 

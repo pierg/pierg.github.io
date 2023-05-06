@@ -55,7 +55,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Pier. I am a postdoctoral researcher at{' '}
-        <a href="https://www.icyphy.org/people.html/">
+        <a href="https://www.icyphy.org/people">
           {' '}
           in the Industrial Cyber-Physical Systems group at UC Berkeley
         </a>
