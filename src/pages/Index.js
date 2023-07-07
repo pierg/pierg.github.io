@@ -23,7 +23,7 @@ const Index = () => (
         Welcome to my website. Please feel free to check out my{' '}
         <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
         or <Link to="/personal">personal interests</Link>. If you have any
-        questions or collaboration ideas, don`&apos;`t hesitate{' '}
+        questions or collaboration ideas, don&apos;t hesitate{' '}
         <Link to="/contact">contact</Link> me.
       </p>
       <ReactMarkdown
