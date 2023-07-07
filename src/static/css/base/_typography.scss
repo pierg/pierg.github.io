@@ -40,7 +40,8 @@
 			'border-bottom-color #{_duration(transition)} ease'
 		));
 		border-bottom: dotted 1px _palette(border-alt);
-		color: inherit;
+		// color: inherit;
+		color: _palette(fg-bold);
 		text-decoration: none;
 
 		&:before {
