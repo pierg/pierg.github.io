@@ -13,14 +13,18 @@ const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const Index = () => (
   <Main
-    description={"Piergiuseppe Mallozzi's personal website. Berkeley based PhD graduate in Computer Science"}
+    description={
+      "Piergiuseppe Mallozzi's personal website. Berkeley based PhD graduate in Computer Science"
+    }
   >
     <article className="post" id="index">
-      <p> Welcome to my website. Please feel free to check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        <Link to="/personal">personal interests</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p>
+        {' '}
+        Welcome to my website. Please feel free to check out my{' '}
+        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
+        or <Link to="/personal">personal interests</Link>. If you have any
+        questions or collaboration ideas, don`&apos;`t hesitate{' '}
+        <Link to="/contact">contact</Link> me.
       </p>
       <ReactMarkdown
         source={markdown}
@@ -31,10 +35,14 @@ const Index = () => (
       />
       <ul className="actions">
         <li>
-          <Link to="/resume" className="button">Learn More</Link>
+          <Link to="/resume" className="button">
+            Learn More
+          </Link>
         </li>
         <li>
-          <Link to="/resume" className="button">Projects</Link>
+          <Link to="/resume" className="button">
+            Projects
+          </Link>
         </li>
       </ul>
     </article>
