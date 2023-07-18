@@ -1,6 +1,8 @@
 @article{mallozzi2023zkp,
   title={Deploying ZKP Frameworks with Real-World Data: Challenges and Proposed Solutions},
   author={Mallozzi, Piergiuseppe},
-  journal={arXiv preprint arXiv},
+  journal={arXiv preprint arXiv:2307.06408},
   year={2022}
 }
+
+

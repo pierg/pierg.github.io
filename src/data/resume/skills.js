@@ -9,7 +9,7 @@ const skills = [
     venue: 'under review',
     year: 2023,
     category: ['Blockchain', 'Zero-Knowledge Proof'],
-    pdflink: 'https://arxiv.org/abs',
+    pdflink: 'https://arxiv.org/abs/2307.06408',
     file: 'zkp',
   },
   {
@@ -55,12 +55,12 @@ const skills = [
       'Formal Verification',
       'Contract-Based Design',
     ],
-    pdflink: '',
-    file: '',
+    pdflink: 'https://arxiv.org/abs/2303.17751',
+    file: 'pacti',
   },
   {
     title:
-      'A Framework for Specifying and Realizing Correct–by–Construction Contextual Robotic Missions Using Contracts',
+      'Correct-by-Construction Design of Contextual Robotic Missions Using Contracts',
     authors:
       'Piergiuseppe Mallozzi, Pierluigi Nuzzo, Nir Piterman, Patrizio Pelliccione, Gerardo Schneider',
     venue: 'under review',
@@ -71,8 +71,8 @@ const skills = [
       'Robotic Missions',
       'Reactive Synthesis',
     ],
-    pdflink: 'https://rebrand.ly/contextual_missions',
-    file: 'contextual_controllers',
+    pdflink: 'https://arxiv.org/abs/2306.08144',
+    file: 'contextual',
   },
   {
     title: 'Incremental Refinement of Goal Models with Contracts',
