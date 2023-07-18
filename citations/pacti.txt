@@ -1,0 +1,6 @@
+@article{incer2023pacti,
+  title={Pacti: Scaling assume-guarantee reasoning for system analysis and design},
+  author={Incer, Inigo and Badithela, Apurva and Graebener, Josefine and Mallozzi, Piergiuseppe and Pandey, Ayush and Yu, Sheng-Jung and Benveniste, Albert and Caillaud, Benoit and Murray, Richard M and Sangiovanni-Vincentelli, Alberto and others},
+  journal={arXiv preprint arXiv:2303.17751},
+  year={2023}
+}

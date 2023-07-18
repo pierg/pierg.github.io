@@ -1,0 +1,6 @@
+@article{mallozzi2023correct,
+  title={Correct-by-Construction Design of Contextual Robotic Missions Using Contracts},
+  author={Mallozzi, Piergiuseppe and Piterman, Nir and Nuzzo, Pierluigi and Schneider, Gerardo and Pelliccione, Patrizio},
+  journal={arXiv preprint arXiv:2306.08144},
+  year={2023}
+}
