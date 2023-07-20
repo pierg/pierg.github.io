@@ -15,7 +15,7 @@ const data = [
     link: 'https://www.pacti.org',
     github: 'https://github.com/pacti-org/pacti',
     image: '/images/projects/pacti.png',
-    desc: 'Developed a case study on UAV topology using contract-based design to enforce the rules of a context-free grammar that defines the feasible space of UAV topologies.',
+    desc: 'Contributed to PACTI development, an open-source tool for scalable system analysis using Assume-Guarantee contracts with polyhedral constraints. Conducted UAV topology study with contract-based design enforcing context-free grammar rules for feasible topologies.',
   },
   {
     title: 'Sym-CPS',
