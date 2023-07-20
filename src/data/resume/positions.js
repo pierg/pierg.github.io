@@ -3,11 +3,12 @@ const positions = [
     company: 'UC Berkeley',
     position: 'ZKP Hackathon 2023',
     prof: '',
-    proflink: '',
+    proflink: 'https://pierg.github.io/fact-fortress-web/',
     link: 'https://pierg.github.io/fact-fortress-web/',
     daterange: '2023',
     points: [
       'Recipient of first prize in application track (self-selected task) at the ZKP Hackathon 2023 for Fact Fortress project.',
+      'Over the course of three months, 600 participants and 150 teams from around the world competed in five different tracks as part of the competition.',
     ],
   },
   {
