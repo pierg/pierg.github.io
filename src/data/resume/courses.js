@@ -1,35 +1,56 @@
 const courses = [
   {
-    title: 'Italian (Native), English (Full Professional Proficiency), French (Good), Spanish (Intermediate)',
     number: 'Languages',
+    title:
+      'Italian (Native), English (Full Professional Proficiency), French (Good), Spanish (Intermediate)',
   },
   {
-    title: 'Python, Java, C/C++, HTML/CSS/Javascript, Flask/React/SocketIO, MySQL, Matlab, LaTeX, Docker, Git',
     number: 'Programming',
+    title:
+      'Python, Java, C/C++, HTML/CSS/JavaScript, Flask/React/NextJS, MySQL, Matlab, LaTeX, Docker, Git',
   },
   {
-    number: 'Cyber-Physical Systems and Embedded Systems',
-    title: 'Electronics, Logic Circuits, Computer Architecture, Concurrent and Distributed Systems',
+    number: 'Software Engineering',
+    title:
+      'Requirement Engineering, Object-Oriented Programming, Design Patterns, Software Architecture, Agile Development, Testing, Debugging, Version Control, DevOps (CI/CD), Microservices Architecture, Back-end and Front-end Technologies',
   },
   {
     number: 'Formal Methods',
-    title: 'Linear Temporal Logic, Model Checking, Reactive Synthesis, Runtime Verification',
+    title:
+      'Linear Temporal Logic, Model Checking, Reactive Synthesis, Runtime Verification',
   },
   {
-    title: 'Supervised Learning, Unsupervised Learning, Reinforcement Learning, Neural Networks, Convolutional Neural Networks, Transformers, Natural Language Processing',
-    number: 'Machine Learning and Deep Learning',
-  },
-  {
-    title: 'Automata and Languages, Computability, Complexity',
     number: 'Theory of Computation',
+    title:
+      'Automata and Languages, Computability, Complexity Theory, Turing Machines, Formal Language Theory, Algorithm Analysis',
   },
   {
-    title: 'Object-Oriented Programming, Design Patterns, Software Architecture, Agile Development, Testing, Debugging.',
-    number: 'Software Engineering',
+    number: 'Algorithms and Data Structures',
+    title: 'Operations Research, Graph Theory, Optimization',
   },
   {
-    title: 'Advanced Networking, Internet Protocols, Cryptography, Network Security, Blockchain Technology and Zero-Knowledge Proof.',
-    number: 'Networking and Security',
+    number: 'Cyber-Physical Systems and Embedded Systems',
+    title:
+      'Electronics, Logic Circuits, Computer Architecture, Concurrent and Distributed Systems',
+  },
+  {
+    number: 'Machine Learning',
+    title:
+      'Supervised Learning, Unsupervised Learning, Deep Learning, Neural Networks, Natural Language Processing, Computer Vision',
+  },
+  {
+    number: 'Security and Blockchain',
+    title:
+      'Advanced Networking, Internet Protocols, Cryptography, Network Security, Blockchain Technology, Zero-Knowledge Proof',
+  },
+  {
+    number: 'Hardware Engineering',
+    title:
+      'RTL Design, Hardware Description Languages, Digital Logic Design, Microcontrollers, ASIC/FPGA, CMOS Technology',
+  },
+  {
+    number: 'Database Management',
+    title: 'SQL, NoSQL (e.g., MongoDB), Database Design and Optimization',
   },
 ];
 
