@@ -76,7 +76,7 @@ const data = [
     title: 'WiseML',
     subtitle: 'Runtime monitoring tool for Safe reinforcement learning',
     image: '/images/projects/wiseml.png',
-    github: 'https://github.com/pierg/wiseml',
+    link: 'https://rose-workshops.github.io/files/rose2019/papers/rose2019_2.pdf',
     desc: "Tool for safe and efficient model-free reinforcement learning (RL) in unknown environments. It uses runtime monitoring with a set of monitors to prevent unsafe actions and provide feedback to the agent, which enables the agent to learn faster and achieve the goal efficiently. The approach has been evaluated in randomly generated learning environments and has shown to prevent dangerous actions and improve the agent's performance.",
     points: [],
   },
@@ -85,7 +85,7 @@ const data = [
     subtitle:
       'Engineering of Reward Functions for reinforcement learning agents',
     image: '/images/projects/movemo.png',
-    github: 'https://github.com/pierg/movemo',
+    link: 'http://raulpardo.net/papers/irc2018.pdf',
     desc: 'Tool for formally expressing and verifying reward functions in structured state machines, enhancing the design and formal verification of reward functions in reinforcement learning.',
     points: [],
   },
