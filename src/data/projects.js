@@ -89,6 +89,35 @@ const data = [
     desc: 'Tool for formally expressing and verifying reward functions in structured state machines, enhancing the design and formal verification of reward functions in reinforcement learning.',
     points: [],
   },
+  {
+    title: 'Search and Rescue Challenge',
+    subtitle:
+      'Part of the WASP Autonomous System Program',
+    image: '/images/projects/search.png',
+    github: 'https://github.com/pierg/wasp_cht2_catkin',
+    desc: 'Designed and implemented the complete software stack (Motion Planner, SLAM, Computer Vision, Control) for a cooperative search and rescue mission involving a drone and a land robot (turtlebot).',
+    points: [],
+  },
+  {
+    title: 'NASA DAIDALUS',
+    subtitle:
+      'NextGen collision avoidance system Simulator using Formal verification',
+    image: '/images/projects/nasa.png',
+    link: 'https://vimeo.com/manage/videos/140775294',
+    github: 'https://github.com/pierg/wasp_cht2_catkin',
+    desc: 'Flight simulator showcasing NASA Langley\'s NextGen collision avoidance system (DAIDALUS), incorporating PVS verification for mathematical model execution.',
+    points: [],
+  },
+  {
+    title: 'CHI+MED Integrated Clinical Environment',
+    subtitle:
+      'Reverse Engineering of Medical Devices to a formal model',
+    image: '/images/projects/chimed.png',
+    link: 'https://vimeo.com/manage/videos/140775294',
+    github: 'https://bitbucket.org/piergiuseppe/network_controller/src/master/',
+    desc: 'Communication middleware enabling co-simulation of device prototypes, facilitating interoperability with medical devices represented as mathematical models (using PVS).',
+    points: [],
+  },
 ];
 
 export default data;
