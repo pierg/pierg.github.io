@@ -3,14 +3,13 @@ import PropTypes from 'prop-types';
 
 import Course from './Courses/Course';
 
-const getRows = (courses) =>
-  courses.map((course, idx) => (
-    <Course
-      data={course}
-      key={course.title}
-      last={idx === courses.length - 1}
-    />
-  ));
+const getRows = (courses) => courses.map((course, idx) => (
+  <Course
+    data={course}
+    key={course.title}
+    last={idx === courses.length - 1}
+  />
+));
 
 const Courses = ({ data }) => (
   <div className="courses">
@@ -29,7 +28,7 @@ Courses.propTypes = {
       number: PropTypes.string,
       link: PropTypes.string,
       university: PropTypes.string,
-    })
+    }),
   ),
 };
 
