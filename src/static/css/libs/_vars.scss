@@ -1,50 +1,226 @@
 // Misc.
 $misc: (
-        z-index-base: 10000
+  z-index-base: 10000,
 );
 
 // Duration.
 $duration: (
-        menu: 0.5s,
-        transition: 0.2s
+  menu: 0.5s,
+  transition: 0.2s,
 );
 
 // Size.
 $size: (
-        element-height: 2.75em,
-        element-margin: 2em,
-        section-spacing: 3em,
-        section-spacing-small: 1.5em,
-        menu: 25em
+  element-height: 2.75em,
+  element-margin: 2em,
+  section-spacing: 3em,
+  section-spacing-small: 1.5em,
+  menu: 25em,
 );
 
 // Font.
 $font: (
-        family: ('Source Sans Pro', Helvetica, sans-serif),
-        family-fixed: ('Courier New', monospace),
-        family-heading: ('Raleway', Helvetica, sans-serif),
-        weight: 400,
-        weight-bold: 700,
-        weight-heading: 400,
-        weight-heading-bold: 800,
-        weight-heading-extrabold: 900,
-        kerning-heading: 0.25em
+  family: (
+    'Source Sans Pro',
+    Helvetica,
+    sans-serif,
+  ),
+  family-fixed: (
+    'Courier New',
+    monospace,
+  ),
+  family-heading: (
+    'Raleway',
+    Helvetica,
+    sans-serif,
+  ),
+  weight: 400,
+  weight-bold: 700,
+  weight-heading: 400,
+  weight-heading-bold: 800,
+  weight-heading-extrabold: 900,
+  kerning-heading: 0.25em,
+);
+
+$font2: (
+  family: (
+    'Poppins',
+    Arial,
+    sans-serif,
+  ),
+  family-fixed: (
+    'Roboto Mono',
+    monospace,
+  ),
+  family-heading: (
+    'Montserrat',
+    Arial,
+    sans-serif,
+  ),
+  weight: 400,
+  weight-bold: 700,
+  weight-heading: 400,
+  weight-heading-bold: 700,
+  weight-heading-extrabold: 800,
+  kerning-heading: 0.2em,
+);
+
+$font3: (
+  family: (
+    'Playfair Display',
+    Georgia,
+    serif,
+  ),
+  family-fixed: (
+    'Courier New',
+    monospace,
+  ),
+  family-heading: (
+    'Cormorant Garamond',
+    Georgia,
+    serif,
+  ),
+  weight: 400,
+  weight-bold: 700,
+  weight-heading: 400,
+  weight-heading-bold: 700,
+  weight-heading-extrabold: 800,
+  kerning-heading: 0.15em,
+);
+
+$font4: (
+  family: (
+    'Inter',
+    'Segoe UI',
+    sans-serif,
+  ),
+  family-fixed: (
+    'Fira Code',
+    monospace,
+  ),
+  family-heading: (
+    'Quicksand',
+    'Segoe UI',
+    sans-serif,
+  ),
+  weight: 400,
+  weight-bold: 600,
+  weight-heading: 400,
+  weight-heading-bold: 600,
+  weight-heading-extrabold: 800,
+  kerning-heading: 0.3em,
 );
 
 // Palette.
+$palette1: (
+  bg: #395b64,
+  bg-alt: #2c3333,
+  fg: #a5c9ca,
+  fg-bold: #e7f6f2,
+  fg-light: #aaaaaa,
+  fg-lighter: #b7d4d5,
+  border: rgba(160, 160, 160, 0.3),
+  border-bg: rgba(160, 160, 160, 0.075),
+  border-alt: rgba(160, 160, 160, 0.65),
+  description-light: rgba(44, 51, 51, 0.55),
+  description: rgba(44, 51, 51, 0.95),
+  accent: #efaf0c,
+);
+
+// Ocean Breeze Palette:
 $palette: (
-        bg: #395B64,
-        bg-alt: #2C3333,
-        fg: #A5C9CA,
-        fg-bold: #E7F6F2,
-        fg-light: #aaaaaa,
-        fg-lighter: #b7d4d5,
-        border: rgba(160, 160, 160, 0.3),
-        border-bg: rgba(160, 160, 160, 0.075),
-        border-alt: rgba(160, 160, 160, 0.65),
-        description-light: rgba(44, 51, 51, 0.55),
-        description: rgba(44, 51, 51, 0.95),
-        accent: #efaf0c
+  bg: #2a4858,
+  bg-alt: #1b2b2e,
+  fg: #98c1c6,
+  fg-bold: #eff9f9,
+  fg-light: #7ea4a8,
+  fg-lighter: #b3d1d5,
+  border: rgba(151, 151, 151, 0.3),
+  border-bg: rgba(151, 151, 151, 0.075),
+  border-alt: rgba(151, 151, 151, 0.65),
+  description-light: rgba(27, 43, 46, 0.55),
+  description: rgba(27, 43, 46, 0.95),
+  accent: #ffae00,
+);
+
+// Forest Retreat Palette
+$palette3: (
+  bg: #3a5642,
+  bg-alt: #2a3b2c,
+  fg: #a3c2a2,
+  fg-bold: #e5f0e4,
+  fg-light: #7a957a,
+  fg-lighter: #b0c8b0,
+  border: rgba(138, 138, 138, 0.3),
+  border-bg: rgba(138, 138, 138, 0.075),
+  border-alt: rgba(138, 138, 138, 0.65),
+  description-light: rgba(42, 59, 42, 0.55),
+  description: rgba(42, 59, 42, 0.95),
+  accent: #d8a102,
+);
+
+// Sunset Vibes Palette
+$palette4: (
+  bg: #5e314b,
+  bg-alt: #3c1c2b,
+  fg: #d9a1b0,
+  fg-bold: #f8ebf0,
+  fg-light: #b77b8b,
+  fg-lighter: #e2c3cd,
+  border: rgba(169, 169, 169, 0.3),
+  border-bg: rgba(169, 169, 169, 0.075),
+  border-alt: rgba(169, 169, 169, 0.65),
+  description-light: rgba(60, 28, 43, 0.55),
+  description: rgba(60, 28, 43, 0.95),
+  accent: #f18f01,
+);
+
+// Palette Greenish Original.
+$palette5: (
+  bg: #395b64,
+  bg-alt: #2c3333,
+  fg: #a5c9ca,
+  fg-bold: #e7f6f2,
+  fg-light: #aaaaaa,
+  fg-lighter: #b7d4d5,
+  border: rgba(160, 160, 160, 0.3),
+  border-bg: rgba(160, 160, 160, 0.075),
+  border-alt: rgba(160, 160, 160, 0.65),
+  description-light: rgba(44, 51, 51, 0.55),
+  description: rgba(44, 51, 51, 0.95),
+  accent: #efaf0c,
+);
+
+// Modern Elegance Palette:
+$palette6: (
+  bg: #2b2c3b,
+  bg-alt: #1c1d29,
+  fg: #b1b1c0,
+  fg-bold: #f2f2f2,
+  fg-light: #7a7a8c,
+  fg-lighter: #c5c5d2,
+  border: rgba(171, 171, 192, 0.3),
+  border-bg: rgba(171, 171, 192, 0.075),
+  border-alt: rgba(171, 171, 192, 0.65),
+  description-light: rgba(28, 29, 41, 0.55),
+  description: rgba(28, 29, 41, 0.95),
+  accent: #ff6a00,
+);
+
+// Creative Energy Palette
+$palette7: (
+  bg: #524f42,
+  bg-alt: #36342b,
+  fg: #b0aa91,
+  fg-bold: #f5f4ed,
+  fg-light: #7f7c6b,
+  fg-lighter: #c5c3b6,
+  border: rgba(176, 170, 145, 0.3),
+  border-bg: rgba(176, 170, 145, 0.075),
+  border-alt: rgba(176, 170, 145, 0.65),
+  description-light: rgba(54, 52, 43, 0.55),
+  description: rgba(54, 52, 43, 0.95),
+  accent: #ff7700,
 );
 
 //$palette: (
