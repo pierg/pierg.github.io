@@ -1,6 +1,6 @@
 # Intro
 
-I'm a postdoctoral researcher in [computer science and engineering at UC Berkeley](https://www.icyphy.org/people.html), specializing in **software/system engineering**, **AI/ML**, **formal methods**, and exploring the exciting world of **distributed systems**, including blockchain, and **zero-knowledge proof**. With a strong passion for hands-on software development, I have actively contributed to [several open source projects](https://pierg.github.io/projects).
+I am a Postdoctoral Researcher in [Computer Science and Engineering at UC Berkeley](https://www.icyphy.org/people.html). My specialization is in **Software/System Engineering** where I apply **Formal Methods** and Data-Driven techniques (**ML/DL**). Furthermore, I am delving into the fascinating field of **Distributed Systems**, including blockchain, and **Zero-Knowledge Proof**. With a strong passion for hands-on software development, I have actively contributed to [several open source projects](https://pierg.github.io/projects).
 
 # Currently
 
