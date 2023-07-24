@@ -40,7 +40,7 @@ const Index = () => (
           </Link>
         </li>
         <li>
-          <Link to="/resume" className="button">
+          <Link to="/projects" className="button">
             Projects
           </Link>
         </li>
