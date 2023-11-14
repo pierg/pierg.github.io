@@ -5,7 +5,7 @@ I am a Postdoctoral Researcher in [Computer Science and Engineering at UC Berkel
 # Currently
 
 Here are my current endeavors:
-- **Configurable Neural Networks with Biochemically-Informed Data Generation**:  Led the creation of a TensorFlow-based framework for neural networks, featuring *customizable neural networks* designs, dynamic synthetic data generation rooted in *biochemical models*, and seamless integration with *high-performance computing* for enhanced efficiency and scalability.
+- **[Configurable Neural Networks with Biochemically-Informed Data Generation](https://pierg.github.io/projects)**:  Led the creation of a TensorFlow-based framework for neural networks, featuring *customizable neural networks* designs, dynamic synthetic data generation rooted in *biochemical models*, and seamless integration with *high-performance computing* for enhanced efficiency and scalability.
 
 
 # Previously

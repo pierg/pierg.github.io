@@ -3,8 +3,8 @@ const data = [
   {
     title: 'Biochemically-Informed Neural Networks',
     subtitle: 'Configurable Neural Networks with Biochemically-Informed Data Generation',
-    link: 'https://github.com/pierg/neural-networks',
-    github: 'https://github.com/pierg/neural-networks',
+    link: 'https://github.com/pierg/neural_networks',
+    github: 'https://github.com/pierg/neural_networks',
     image: '/images/projects/nn.png',
     desc: 'TensorFlow-based framework for neural networks, emphasizing customizable designs, dynamic synthetic data generation rooted in biochemical models, and seamless integration with high-performance computing for enhanced efficiency and scalability.',
   },
