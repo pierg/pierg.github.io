@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Biochemically-Informed Neural Networks',
+    subtitle: 'Configurable Neural Networks with Biochemically-Informed Data Generation',
+    link: 'https://github.com/pierg/neural-networks',
+    github: 'https://github.com/pierg/neural-networks',
+    image: '/images/projects/nn.png',
+    desc: 'TensorFlow-based framework for neural networks, emphasizing customizable designs, dynamic synthetic data generation rooted in biochemical models, and seamless integration with high-performance computing for enhanced efficiency and scalability.',
+  },
+  {
     title: 'Fact-Fortress',
     subtitle: 'On-Chain Zero-Knowledge Proof Solution to Fact-Checking',
     link: 'https://pierg.github.io/fact-fortress-web/',
