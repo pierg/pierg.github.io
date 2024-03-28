@@ -4,10 +4,10 @@ const routes = [
     label: 'Piergiuseppe Mallozzi',
     path: '/',
   },
-  {
-    label: 'Resume',
-    path: '/resume',
-  },
+  // {
+  //   label: 'Resume',
+  //   path: '/resume',
+  // },
   {
     label: 'Projects',
     path: '/projects',

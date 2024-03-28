@@ -21,7 +21,8 @@ const Index = () => (
       <p>
         {' '}
         Welcome to my website. Please feel free to check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
+        {/* <Link to="/resume">resume</Link>,  */}
+        <Link to="/projects">projects</Link>,{' '}
         or <Link to="/personal">personal interests</Link>. If you have any
         questions or collaboration ideas, don&apos;t hesitate to{' '}
         <Link to="/contact">contact me</Link>.
@@ -34,11 +35,11 @@ const Index = () => (
         escapeHtml={false}
       />
       <ul className="actions">
-        <li>
+        {/* <li>
           <Link to="/resume" className="button">
             Learn More
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/projects" className="button">
             Projects
